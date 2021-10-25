@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box  ;
+}
+.carusel-inner{
+    height: 100%;
+}
+nav{
+    position: sticky;
+    width: 100%;
+}
+
+.main{
+ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    
+    background-color:rgba(18, 58, 104, 0.664);
+    font-family: 'Courier New', Courier, monospace;
+}
+.logo{
+  
+    top:50px;
+    margin-left: 5%;
+    align-items: flex-start;
+    height: auto;    
+}
+.logo h4{
+    font-size: 2rem;
+   top:2rem;
+}
+.btn {   
+    
+    
+        background-color:transparent;
+        margin-bottom: 40px;
+        border: white;
+        cursor:pointer;
+        overflow: hidden; 
+        
+    }
+
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+   align-items: center;
+    margin-left: 30%;
+    
+}
+.nav-links a{
+    text-decoration: none;  
+    color: black;
+    margin:0px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    top: 20%;
+
+}
+
+.content {
+    position: relative;
+    text-align: center;
+    color: rgb(255,255,255);
+}
+.text_1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 15px;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+}
+.text_1 h1{
+    font-size: 5rem;
+}
+.box {
+    width: 400px;
+    margin: 7px;
+    padding: 10px;
+    border: 4px solid rgb(255,255,255);
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color:blanchedalmond;
+    font-style: bold;
+font-size: 18px;
+font-family: Arial;
+
+}
+.last {
+    width: 100px;
+    margin: 5px;
+    padding: 10px;
+    border: 4px solid rgb(255,255,255);
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.last:hover{
+    background-color: #555;
+}
+@media screen and (max-width: 40.5em) {
+    .carusel{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      
+      
+    }
+    .carusel-item{
+        height: 100%;
+    }
+
+    footer{
+        background-color: #555;
+        width: 100%;
+    }
+    body{
+        background-color: black;
+    }
+  }
+  @media screen and (max-width:80.5em) {
+      .carusel{
+          width: 100%;
+      }
+      
+  }

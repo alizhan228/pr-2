@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <style>
+            body{
+                background: url(/img/sky.jpg) no-repeat;
+                background-size: 100%;
+            }
+            .nachalo{
+                display: flex;
+               justify-content: space-between;
+            }
+            .href{
+                font-size: 20px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                
+            }
+            .container{
+                margin-top: 30px;
+                background-color: seagreen;
+                color: seashell;
+            }
+            .Head{
+                text-align: center;
+               
+            }
+            table{
+                text-align: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            td{
+                padding-bottom: 20px;
+                
+            }
+            .news{
+                width: 100%;
+                display: flexbox;
+                justify-content: center;
+            }
+            a{
+                color: antiquewhite;
+            }
+            @media screen and (max-width: 40.5em) {
+                .Head{
+                    display: flex;
+
+                }
+                td a{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                }  
+                td {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }  
+                .news{
+                    display:flexbox;
+                    align-items: flex-start;
+                    justify-content: start;
+                    margin-left: -20%;
+                }
+                body{
+                    background-size: 200vh;
+                }
+            }
+         
+           
+        </style>
+   </head>
+    <body>
+          <div class="nachalo">
+              <div class="Kz1"><img src="/img/kz.png" alt="kz" style="width: 40px; height: 40px;">
+              <a style="font-size: 20px; color: orange;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">KzNews<a>  
+             </div>
+              <div class="href" style="margin-right: 40px;">
+                  <a href="/pages/feedback.html" style="margin-right: 20px;color: orange;">Feedback</a>
+                  <a href="/index.html" style="color: orange;">MAINPAGE</a>
+              </div>
+          </div>
+         <hr>
+         <div class="container">
+            <div class="row">
+                <div class="col-sm-3">News</div>
+                <div class="col-sm-3">Photos</div>
+                <div class="col-sm-3">Report</div>
+                <div class="col-sm-1">Authors</div>
+            </div>
+            </div>
+            <br>
+             <div class="Head" style="color: #FF6347;"><h1>Top News</h1></div>
+             <div class="news">
+             <table>
+                 <tr>
+                     <td style="color: aliceblue; padding-left: 80px;"><img src="/img/table1.jpg" alt="" style=" width: 260px; height: 170px;"><br><a href="/pages/page_3.html">President Tokayev Addresses Heads of Commonwealth of Independent States  Council Meeting</a></td>
+
+                     <td style="padding-left: 100px;"><img src="/img/tb2.jpg" alt="" style="height: 170px; width: 260px;"><br><a href="/pages/page.html">Middle ages of Kazakhstan</a></td>
+
+                     <td><img src="" alt=""></td>                 
+                    </tr>
+             </table>
+             <table>
+                <tr>
+                    <td style="padding-left: 140px;"><img src="/img/table 3.jpeg" alt="" style="width: 260px; height: 170px;"><br><a href="/pages/page_2.html">Art of Culture</a></td>
+
+                    <td style="padding-left: 150px;"><img src="/img/tb4.jpg" alt="" style="height: 170px; width: 260px;"><br><a href="#">Kazakh Musician Outshines the Entire World With Accordion Playing Skills at the 74th Coupe Mondiale</a></td>
+
+                    <td><img src="" alt=""></td>                 
+                   </tr>
+            </table>
+            <hr>
+             </div>
+    </body>
+</html>
